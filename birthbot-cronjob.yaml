@@ -11,7 +11,7 @@ spec:
         spec:
           containers:
             - name: birthbot-cron
-              image: 
+              image: ghcr.io/ziwooda/gitops-study:sha-f044b44
               imagePullPolicy: IfNotPresent
               env:
                 - name: SLACK_TOKEN
